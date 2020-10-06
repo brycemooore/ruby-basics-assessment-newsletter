@@ -1,0 +1,17 @@
+
+[1mFrom:[0m /mnt/c/Users/15402/dev/flatiron/labs/ruby-basics-assessment-newsletter/newsletter.rb @ line 34 Object#calculate_recipients:
+
+    [1;34m30[0m: [32mdef[0m [1;34mcalculate_recipients[0m(subscribed, unsubscribed)
+    [1;34m31[0m:   recipients = []
+    [1;34m32[0m:   subscribed.each{|subscribers|
+    [1;34m33[0m:     unsubscribed.each{|unsubscribers|
+ => [1;34m34[0m:     binding.pry 
+    [1;34m35[0m:       [32mif[0m subscribers != unsubscribers
+    [1;34m36[0m:         recipients << subscribers
+    [1;34m37[0m:       [32mend[0m 
+    [1;34m38[0m:     }
+    [1;34m39[0m:   }
+    [1;34m40[0m:   [1;34m# Using the SUBSCRIBERS and UNSUBSCRIBED arrays,[0m
+    [1;34m41[0m:   [1;34m# write a method that will return an array of only the subscribers who haven't unsubscribed[0m
+    [1;34m42[0m: [32mend[0m
+
